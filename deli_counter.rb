@@ -14,5 +14,6 @@ def take_a_number(customer_line, name)
 end 
 
 def now_serving
-  
+  if customer_line == 0 
+    puts 
 end
