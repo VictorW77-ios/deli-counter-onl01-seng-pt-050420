@@ -7,3 +7,8 @@ def line(array)
     puts "The line is currently: #{katz_deli_line.join(" ")}"
   end
 end
+
+def take_a_number(customer_line, name)
+  
+  
+end 
