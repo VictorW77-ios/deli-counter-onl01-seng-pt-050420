@@ -10,6 +10,6 @@ end
 
 def take_a_number(customer_line, name)
   customer_line.push(name)
-  puts "Welcome, #{name}."
+  puts "Welcome, #{name}. You are number #{customer_line.length} in line."
   
 end 
