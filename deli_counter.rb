@@ -4,6 +4,6 @@ katz_deli_line = []
     puts "The line is currently empty."
   else 
     array.each_with_index { |name, index| katz_deli_line.push("#{index + 1}. #{name}")
-    puts "The line is currently: #{katz_deli_line.join}"
+    puts "The line is currently: #{katz_deli_line.join(" ")}"
   end
 end
