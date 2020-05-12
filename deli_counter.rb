@@ -3,7 +3,7 @@ def line(array)
   if array.length == 0 
     puts "The line is currently empty."
   else 
-    array.each_with_index { |name, index| katz_deli_line.push("#{index + 1}. #{name}")
+    array.each_with_index { |name, index| katz_deli_line.push("#{index + 1}. #{name}") }
     puts "The line is currently: #{katz_deli_line.join(" ")}"
   end
 end
