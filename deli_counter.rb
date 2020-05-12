@@ -16,4 +16,5 @@ end
 def now_serving
   if customer_line == 0 
     puts "There is nobody waiting to be served!"
+  else
 end
