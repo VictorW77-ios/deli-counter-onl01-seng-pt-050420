@@ -9,6 +9,7 @@ def line(array)
 end
 
 def take_a_number(customer_line, name)
-  customer_line.push
+  customer_line.push(name)
+  
   
 end 
