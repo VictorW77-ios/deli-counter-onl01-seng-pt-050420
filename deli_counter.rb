@@ -17,5 +17,5 @@ def now_serving
   if customer_line == 0 
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{name}"
+    puts "Currently serving #{customer_line.shift}"
 end
