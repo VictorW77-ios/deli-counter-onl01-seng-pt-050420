@@ -20,3 +20,5 @@ def now_serving(customer_line)
     puts "Currently serving #{customer_line.shift}."
   end #conditionals!!
 end #now_serving method!!
+
+#I'm so glad to be finished with this lab!
