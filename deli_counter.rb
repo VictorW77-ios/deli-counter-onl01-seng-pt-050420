@@ -18,5 +18,5 @@ def now_serving
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{customer_line.shift}."
-  end #if 
-end
+  end #conditionals
+end #now_serving method
