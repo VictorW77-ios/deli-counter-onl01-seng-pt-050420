@@ -13,7 +13,7 @@ def take_a_number(customer_line, name)
   puts "Welcome, #{name}. You are number #{customer_line.length} in line."
 end 
 
-def now_serving
+def now_serving(array)
   if customer_line == 0 
     puts "There is nobody waiting to be served!"
   else
